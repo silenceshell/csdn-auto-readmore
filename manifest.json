@@ -1,0 +1,17 @@
+  {
+    "name": "CSDN自动阅读全文",
+    "description" : "CSDN博客默认不会显示完整页面，而是需要点击“阅读全文”才能显示。本扩展可以跳过该步骤，自动阅读全文",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons": { "16": "icon16.png",
+      "48": "icon48.png",
+     "120": "icon120.png" },
+    "content_scripts": [
+      {
+        "matches": [
+          "*://blog.csdn.net/*"
+        ],
+        "js": ["auto.js"]
+      }
+    ]
+  }
