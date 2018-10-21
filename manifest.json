@@ -9,7 +9,7 @@
     "content_scripts": [
       {
         "matches": [
-          "*://blog.csdn.net/*"
+          "*://blog.csdn.net/*/article/details/*"
         ],
         "js": ["auto.js"]
       }
