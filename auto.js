@@ -1,4 +1,4 @@
-var btn = document.getElementById("btn-readmore");
+var btn = document.querySelector(".btn-readmore");
 if (btn)
 {
     btn.click();
